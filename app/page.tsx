@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
+import page from '@/app/dashboard/page'
 
 export default function Page() {
   return (
@@ -15,7 +16,7 @@ export default function Page() {
         <AcmeLogo />
       </div>
      
-      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
+       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
         
